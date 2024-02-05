@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(85, 68, 71);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts, sans-serif),sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(63, 63, 63);
+    color: #b3b3b3;
+}
+
+nav ul li{
+    padding: 0px 12px;
+    font-weight: bolder;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: #171717;
+    color: #b3b3b3;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts, sans-serif),sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('anime-wallpaper-7628310_1280.webp');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+    padding: 0 12px;
+}
+
+#myProgressBar{
+    min-width: 80vw;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 34px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 40vw;
+    background-color: #f5f5f58e;
+    border-radius: 34px;
+    margin: 12px 0;
+    color: darkslategrey;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.songName{
+    padding: 0 12px;
+}
+
+.timestamp{
+    margin: 0 12px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 9vw;
+    margin-top: 28px;
+}
+.songinfo img{
+    border-radius: 21px 21px 36px 36px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
